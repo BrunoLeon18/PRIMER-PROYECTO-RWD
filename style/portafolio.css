@@ -5,12 +5,17 @@ GLOBALES
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.woff);
+}
+
 html {
     font-size: 62.5%; /*base 10*/
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'roboto';
     font-weight: bold;
     font-size: 1.8rem;
     color: #fff;  
