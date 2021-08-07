@@ -142,6 +142,10 @@ BANNER
     padding: 30px 182px 76px;
     background: #fb7171;
 }
+.services .item{
+    width: 33.33%;
+    text-align: center;
+}
 
 .services .row {
     margin-bottom: 54px;
@@ -236,7 +240,7 @@ PORTFOLIO
 
     /*
     GLOBALES
-    */
+    */git
     section h2{
         font-size: 2.4rem;
         margin-bottom: 2rem;
