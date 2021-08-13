@@ -184,7 +184,7 @@ LAYOUT
 }
 
 @media (min-width: 0) and (max-width: 950px) {
-  .skills .skills {
+  .skills {
     padding: 20px 15px 40px;
   }
   .skills .item {
@@ -229,7 +229,7 @@ LAYOUT
 }
 
 @media (min-width: 0) and (max-width: 950px) {
-  .services .services {
+  .services {
     padding: 20px 15px 40px;
   }
   .services .row {
@@ -266,7 +266,7 @@ PORTFOLIO
 }
 
 @media (min-width: 0) and (max-width: 950px) {
-  .portfolio .portfolio {
+  .portfolio {
     padding: 20px 15px 40px;
   }
   .portfolio .row {
@@ -291,7 +291,7 @@ PORTFOLIO
 }
 
 @media (min-width: 0) and (max-width: 950px) {
-  .clients .clients {
+  .clients {
     padding: 20px 15px 40px;
   }
   .clients .row {
@@ -320,8 +320,7 @@ PORTFOLIO
   width: 100%;
 }
 
-.contact input:focus, .contact input:focus,
-.contact textarea:focus,
+.contact input:focus,
 .contact textarea:focus {
   outline: none;
 }
@@ -360,7 +359,7 @@ PORTFOLIO
 }
 
 @media (min-width: 0) and (max-width: 950px) {
-  .contact .contact {
+  .contact {
     padding: 20px 30px 40px;
   }
   .contact .row {
