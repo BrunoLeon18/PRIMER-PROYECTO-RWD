@@ -1,0 +1,26 @@
+/*CLIENTS*/
+.clients {
+    padding: 36px 70px 98px;
+    background:  #3f4e62;
+    
+    @media(min-width:0) and (max-width:950px){
+
+        .clients{
+            padding:20px 15px 40px;
+        }
+
+        .row{
+            flex-wrap: wrap;
+        }
+
+        figure{
+            width: 100%;
+            margin: 20px 0 30px;
+        }
+
+        figure img{
+            margin: auto;
+            width: 50%;
+        }
+    }
+}

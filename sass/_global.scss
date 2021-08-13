@@ -1,0 +1,49 @@
+/*
+GLOBALES
+*/
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.woff);
+}
+
+html {
+    font-size: 62.5%; /*base 10*/
+}
+
+body {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #fff;  
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+}
+
+section h2 {
+    margin-bottom: 26px;
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+@media(min-width:0) and (max-width:950px){
+
+    /*
+    GLOBALES
+    */
+    section h2{
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+}
